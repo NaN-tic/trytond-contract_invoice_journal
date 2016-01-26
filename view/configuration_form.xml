@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the contract_invoice_journal module for Tryton.
+The COPYRIGHT file at the top level of this repository contains
+the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='contract_sequence']" position="after">
+        <label name="default_journal"/>
+        <field name="default_journal"/>
+    </xpath>
+</data>
