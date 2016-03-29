@@ -6,10 +6,10 @@ from trytond.pool import PoolMeta
 
 
 __all__ = ['Configuration']
-__metaclass__ = PoolMeta
 
 
 class Configuration:
+    __metaclass__ = PoolMeta
     __name__ = 'contract.configuration'
     default_journal = fields.Property(fields.Many2One('account.journal',
             'Default Journal'))
